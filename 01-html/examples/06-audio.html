@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Audio Example</title>
+</head>
+<body>
+
+  <h1>Audio in HTML</h1>
+
+  <audio controls loop muted>
+    <source src="../audio/sample.mp3" type="audio/mpeg">
+    <source src="../audio/sample.wav" type="audio/wav">
+    <source src="../audio/sample.ogg" type="audio/ogg">
+
+
+    Your browser does not support the audio element.
+  </audio>
+
+</body>
+</html>
+<!--
+وظيفة وسم <source>:
+
+- يُستعمل داخل <audio> و <video>.
+- يحدّد مصدر الملف (src) ونوعه (type).
+- يسمح بوضع أكثر من ملف بنفس المحتوى لكن بصيغ مختلفة.
+- المتصفح يجرّب أول <source>:
+  إذا لم يدعمه، ينتقل للذي بعده.
+- المتصفح يختار أول ملف يستطيع تشغيله.
+
+لماذا نستخدم <source> بدل src داخل <audio> مباشرة؟
+- يعطي توافق أفضل مع المتصفحات.
+- يوفّر تحميل أسرع لأن المتصفح يعرف النوع من خلال type.
+- يسمح بدعم صيغ متعددة (mp3 / ogg / wav).
+
+مثال:
+<audio controls>
+  <source src="song.mp3" type="audio/mpeg">
+  <source src="song.ogg" type="audio/ogg">
+</audio>
+-->

@@ -73,3 +73,13 @@
 - width / height → image size
 - border → adds a border (better to do with CSS later)
 
+
+###### Audio
+- audio → plays audio on the page
+- source → provides the audio file
+- type → file MIME type (e.g. audio/mpeg)
+- controls → show play/pause controls
+- loop → repeat audio
+- muted → start muted
+
+
