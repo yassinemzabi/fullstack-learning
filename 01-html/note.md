@@ -38,3 +38,28 @@
 - pre → preformatted text (keeps spaces and line breaks)
 - code → displays code snippets
 
+
+
+#### Comments and inline elements
+- <!-- comment --> → HTML comment (not shown in browser)
+- span → inline container for text styling
+
+#### Text formatting tags
+- b → bold text (visual only)
+- strong → important text (semantic)
+- i → italic text (visual only)
+- em → emphasized text (semantic)
+- small → smaller text
+- mark → highlighted text
+- u → underlined text
+- ins → inserted text (semantic underline)
+- s → incorrect text
+- del → deleted text (semantic)
+- sub → subscript text
+- sup → superscript text
+
+#### Differences and usage
+- strong vs b → use strong for importance, b for style
+- em vs i → use em for emphasis, i for style
+- del vs s → del has semantic meaning
+- ins vs u → ins has semantic meaning

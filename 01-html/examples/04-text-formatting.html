@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Text Formatting</title>
+</head>
+<body>
+
+  <!-- This is an HTML comment -->
+
+  <h1>Text Formatting Examples</h1>
+
+  <p>This is <b>bold</b> and this is <strong>important</strong>.</p>
+
+  <p>This is <i>italic</i> and this is <em>emphasized</em>.</p>
+
+  <p>This is <small>small text</small> and <mark>highlighted text</mark>.</p>
+
+  <p>This is <u>underlined</u> and <ins>inserted text</ins>.</p>
+
+  <p>This is <s>wrong text</s> and <del>deleted text</del>.</p>
+
+  <p>H<sub>2</sub>O and X<sup>2</sup></p>
+
+  <p>
+    Inline container example:
+    <span>This text is inside a span.</span>
+  </p>
+
+</body>
+</html>
+
+<!--
+TEXT FORMATTING TAGS: VISUAL vs MEANING (SEMANTIC)
+
+1) <b> vs <strong>
+- <b> : Bold for VISUAL styling only (no special meaning).
+- <strong> : Important text (meaning: "this matters"). Screen readers may emphasize it.
+Use:
+  - <b> when you only want bold style.
+  - <strong> when the word/sentence is important (warning, key point).
+
+2) <i> vs <em>
+- <i> : Italic for VISUAL styling only (no special meaning). Often used for names, foreign words.
+- <em> : Emphasis (meaning: stress this word). Screen readers may emphasize it.
+Use:
+  - <i> for style/notation (book titles, foreign words).
+  - <em> when emphasis changes the meaning of the sentence.
+
+3) <u> vs <ins>
+- <u> : Underline for VISUAL styling only. (Be careful: underline can look like a link.)
+- <ins> : Inserted content (meaning: this text was added/inserted).
+Use:
+  - <u> only when you truly need underlined style.
+  - <ins> when showing edits/changes (added text).
+
+4) <s> vs <del>
+- <s> : Strikethrough to show something is no longer accurate/relevant (visual hint).
+- <del> : Deleted content (meaning: this text was removed).
+Use:
+  - <s> for "old/invalid" info (e.g., old price display).
+  - <del> when the text is actually deleted (change tracking).
+
+5) <small>
+- Smaller, secondary text (fine print, notes, copyright).
+
+6) <mark>
+- Highlighted text (like a marker) to draw attention.
+
+7) <span>
+- Inline container with NO meaning by itself.
+- Used mainly to style part of text later with CSS or to target it with JS.
+-->
+
+
+<!--
+==========================
+HTML Text Formatting: Detailed Differences
+==========================
+
+الفكرة الأساسية:
+- بعض الوسوم تغيّر "الشكل" فقط (Presentational / Visual).
+- وبعضها يضيف "معنى" للنص (Semantic): يفيد SEO + Accessibility (قارئ الشاشة) + فهم المتصفح.
+
+1) <b> vs <strong>
+- <b> : Bold للـ"شكل فقط" بدون معنى إضافي (مجرد خط عريض).
+- <strong> : النص "مهم" أو "تحذير/تأكيد قوي" (معنى + غالبًا يظهر Bold افتراضيًا).
+متى أستعمل؟
+- لو فقط تريد خط عريض للزينة → <b> أو الأفضل CSS.
+- لو تريد أن تقول: هذا مهم فعلاً → <strong>.
+
+2) <i> vs <em>
+- <i> : Italic للـ"شكل فقط" (مثل كلمة أجنبية، اسم كتاب، مصطلح).
+- <em> : Emphasis = تشديد/تأكيد في المعنى (معنى + غالبًا يظهر Italic افتراضيًا).
+متى أستعمل؟
+- لو ميلان للزينة/أسلوب الكتابة → <i>.
+- لو تريد إبراز كلمة لأن معناها مهم في الجملة → <em>.
+
+3) <u> vs <ins>
+- <u> : Underline للـ"شكل فقط" (لا يعني أنه أُضيف).
+- <ins> : Inserted text = نص "تمت إضافته" (معنى، وغالبًا يظهر تحته خط).
+متى أستعمل؟
+- خط تحت للزينة → <u> أو CSS.
+- تتبع تغييرات/إضافة نص جديد في مستند → <ins>.
+
+4) <s> vs <del>
+- <s> : النص لم يعد صحيحًا/مناسبًا (شكل خط في الوسط) لكن بدون "معنى حذف رسمي".
+- <del> : Deleted text = نص "تم حذفه" (معنى، مفيد لتتبع التعديلات).
+متى أستعمل؟
+- تريد فقط تُظهر أن شيء غير صحيح/قديم بصريًا → <s>.
+- تريد أن تقول: هذا النص تم حذفه من النسخة الجديدة → <del>.
+
+5) <span>
+- عنصر inline "عام" بدون معنى (no semantic meaning).
+- يُستخدم عادة مع class/id لتطبيق CSS أو لاستهدافه بـ JS لاحقًا.
+مثال: <span class="highlight">word</span>
+
+6) وسوم أخرى سريعة:
+- <small> : معلومات ثانوية (مثل ملاحظة أو حقوق نشر).
+- <mark> : تمييز/Highlight (مثل بحث أو كلمة مهمة).
+- <sub> : أسفل السطر (H<sub>2</sub>O).
+- <sup> : أعلى السطر (x<sup>2</sup>).
+
+ملاحظة مهمة:
+- الشكل الافتراضي (Bold/Italic/Underline) يمكن تغييره بـ CSS.
+- الأفضل دائمًا: استعمل الوسم semantic عندما تريد معنى، واستعمل CSS عندما تريد شكل فقط.
+-->
