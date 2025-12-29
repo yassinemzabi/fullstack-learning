@@ -1,6 +1,6 @@
 # HTML Notes
 
-## Headings
+# Headings
 - headings are used for titles and sections
 - h1 to h6 → titles and subtitles
 - h1 is the most important heading(Main title)
@@ -8,7 +8,7 @@
 - h3 for Section 
 - h6 is the least important
 
-## Title tag
+# Title tag
 - title → sets the page title
 - shown in the browser tab
 - written inside the head element
@@ -31,3 +31,10 @@
 ## Other Tags
 - br → line break
 - hr → horizontal line
+
+
+### Text content and code tags 
+- p → paragraph text
+- pre → preformatted text (keeps spaces and line breaks)
+- code → displays code snippets
+
