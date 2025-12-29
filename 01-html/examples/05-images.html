@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Images</title>
+</head>
+<body>
+
+  <h1>HTML Images</h1>
+
+  <p>Basic image:</p>
+  <img
+    src="https://th.bing.com/th/id/R.e1d424c4b9be7009dd57ef4e7d58e343?rik=EZ8NO5x85jZ0Vg&riu=http%3a%2f%2f1.bp.blogspot.com%2f-NGHwBncyA68%2fUiMm_8b2ZUI%2fAAAAAAAAAnA%2f17OGXCKI4zE%2fs1600%2fLogo%2bHTML5.JPG&ehk=rnVe3RUksYQ4LMnsZ6Xxyf3F5lkj3Br1Eu6vOVCkYh0%3d&risl=&pid=ImgRaw&r=0"
+    alt="HTML LOGO 1"
+    title="This is an image tooltip"
+    width="200"
+    height="200"
+    border="2"
+  >
+  <br>
+  <img
+    src="../images/html.jpg"
+    alt="HTML LOGO 2"
+    title="Photo"
+    width="400"
+    border="2"
+  >
+
+</body>
+</html>
+
+<!--
+لماذا لم تظهر الصورة؟
+
+ملف HTML موجود هنا:
+01-html/examples/05-images.html
+
+ملف الصورة موجود هنا:
+01-html/images/html.jpg
+
+عندما نكتب:
+src="images/html.jpg"
+
+المتصفح يبحث عن الصورة داخل:
+01-html/examples/images/html.jpg   (مسار غير صحيح)
+
+الحل:
+نستعمل ../ للخروج من مجلد examples خطوة للخلف،
+ثم ندخل إلى مجلد images.
+
+المسار الصحيح هو:
+src="../images/html.jpg"
+
+قاعدة مهمة:
+مسار الصورة يُحسب دائمًا انطلاقًا من مكان ملف HTML.
+
+01-html/
+├─ examples/
+│  └─ 05-images.html   ← أنت هنا
+├─ images/
+│  └─ html.jpg         ← تريد الوصول هنا
+-->

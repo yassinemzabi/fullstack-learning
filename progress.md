@@ -4,3 +4,4 @@
 - 2025-01-02: Learned HTML document structure and meta tags
 - 2025-01-29: Learned HTML p, pre, and code tags
 - 2025-01-29: Learned HTML comments, span, and text formatting tags
+- 2025-01-29: Learned HTML images (img, src, alt, title, width, height, border)

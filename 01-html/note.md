@@ -63,3 +63,13 @@
 - em vs i → use em for emphasis, i for style
 - del vs s → del has semantic meaning
 - ins vs u → ins has semantic meaning
+
+
+##### Images
+- img → displays an image
+- src → image URL/path
+- alt → alternative text (important for accessibility)
+- title → tooltip text on hover
+- width / height → image size
+- border → adds a border (better to do with CSS later)
+
