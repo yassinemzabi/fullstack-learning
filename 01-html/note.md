@@ -20,7 +20,7 @@
 - head → metadata container
 - body → page content
 
-## Meta Tags
+###  Meta Tags
 - meta charset → character encoding (UTF-8)
 - meta description → page description
 - meta keywords → page keywords
@@ -28,7 +28,7 @@
 - meta viewport → responsive design
 - meta http-equiv refresh → auto refresh page
 
-## Other Tags
+### Other Tags
 - br → line break
 - hr → horizontal line
 
@@ -58,7 +58,7 @@
 - sub → subscript text
 - sup → superscript text
 
-## Differences and usage
+###  Differences and usage
 - strong vs b → use strong for importance, b for style
 - em vs i → use em for emphasis, i for style
 - del vs s → del has semantic meaning
@@ -93,7 +93,7 @@
 - poster → image shown before video plays
 - preload → how the browser loads video (none / metadata / auto)
 
-## Subtitles (track)
+###  Subtitles (track)
 - track → subtitles/captions file
 - kind → type (subtitles / captions)
 - label → name shown in player
@@ -132,3 +132,26 @@
 - dl → description list
 - dt → term/name
 - dd → description/details
+
+
+## Containers and Semantic Elements
+
+### Container elements (generic)
+- div → generic block container (no meaning)
+- span → generic inline container (no meaning)
+Use them mainly for grouping + CSS styling.
+
+### Semantic elements (have meaning)
+- header → top area (logo/title)
+- nav → navigation links
+- main → main content of the page (once)
+- section → a section of content
+- article → independent content (post/news)
+- aside → side content (sidebar/ads/notes)
+- footer → bottom area (copyright/links)
+
+### Why semantic?
+- clearer code
+- better accessibility (screen readers)
+- better SEO
+
