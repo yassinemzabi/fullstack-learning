@@ -111,3 +111,24 @@
 - caption → table title
 - colspan → merge columns
 - rowspan → merge rows
+
+
+
+
+## Lists
+
+### Unordered list
+- ul → unordered list
+- li → list item
+
+### Ordered list
+- ol → ordered list
+- li → list item
+- type → numbering style (1, A, a, I)
+- start → starting number
+- reversed → reverse order
+
+### Description list
+- dl → description list
+- dt → term/name
+- dd → description/details

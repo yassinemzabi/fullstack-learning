@@ -8,3 +8,4 @@
 - 2025-12-29: Learned HTML audio tag, source, and attributes (controls, loop, muted, type)
 - 2025-12-30: Learned HTML video tag, attributes, poster, preload, and track subtitles
 - 2025-12-30: Learned HTML tables (table, thead/tbody/tfoot, th, caption, colspan, rowspan)
+- 2025-12-30: Learned HTML lists (ul, ol, dl) and list attributes
