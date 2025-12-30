@@ -1,6 +1,6 @@
 # HTML Notes
 
-# Headings
+## Headings
 - headings are used for titles and sections
 - h1 to h6 → titles and subtitles
 - h1 is the most important heading(Main title)
@@ -8,7 +8,7 @@
 - h3 for Section 
 - h6 is the least important
 
-# Title tag
+## Title tag
 - title → sets the page title
 - shown in the browser tab
 - written inside the head element
@@ -33,18 +33,18 @@
 - hr → horizontal line
 
 
-### Text content and code tags 
+## Text content and code tags 
 - p → paragraph text
 - pre → preformatted text (keeps spaces and line breaks)
 - code → displays code snippets
 
 
 
-#### Comments and inline elements
+## Comments and inline elements
 - <!-- comment --> → HTML comment (not shown in browser)
 - span → inline container for text styling
 
-#### Text formatting tags
+## Text formatting tags
 - b → bold text (visual only)
 - strong → important text (semantic)
 - i → italic text (visual only)
@@ -58,14 +58,14 @@
 - sub → subscript text
 - sup → superscript text
 
-#### Differences and usage
+## Differences and usage
 - strong vs b → use strong for importance, b for style
 - em vs i → use em for emphasis, i for style
 - del vs s → del has semantic meaning
 - ins vs u → ins has semantic meaning
 
 
-##### Images
+## Images
 - img → displays an image
 - src → image URL/path
 - alt → alternative text (important for accessibility)
@@ -74,7 +74,7 @@
 - border → adds a border (better to do with CSS later)
 
 
-###### Audio
+## Audio
 - audio → plays audio on the page
 - source → provides the audio file
 - type → file MIME type (e.g. audio/mpeg)
@@ -83,3 +83,18 @@
 - muted → start muted
 
 
+## Video
+- video → plays video on the page
+- width / height → video size
+- controls → show player controls
+- loop → repeat video
+- muted → start muted
+- autoplay → start automatically (often requires muted)
+- poster → image shown before video plays
+- preload → how the browser loads video (none / metadata / auto)
+
+## Subtitles (track)
+- track → subtitles/captions file
+- kind → type (subtitles / captions)
+- label → name shown in player
+- default → enabled by default
