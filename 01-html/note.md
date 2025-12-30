@@ -208,3 +208,17 @@ Use them mainly for grouping + CSS styling.
 ## name attribute
 - name → key used to send form data
 - required for backend processing
+
+
+## Advanced input types
+- type="color" → choose a color
+- type="file" → upload a file
+- type="range" → select a value with slider
+- type="search" → search input
+- type="url" → website URL
+
+## Input attributes
+- min → minimum value
+- max → maximum value
+- step → value increment
+- value → default value
