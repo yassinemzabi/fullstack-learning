@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Action & Method</title>
+</head>
+<body>
+
+  <h1>GET vs POST</h1>
+
+  <!-- GET form -->
+  <h2>GET Method</h2>
+  <form action="result.html" method="get">
+    <label for="search">Search:</label>
+    <input
+      type="text"
+      id="search"
+      name="query"
+      placeholder="Search term"
+      required
+    >
+    <input type="submit" value="Search">
+  </form>
+
+  <hr>
+
+  <!-- POST form -->
+  <h2>POST Method</h2>
+  <form action="result.html" method="post">
+    <label for="username">Username:</label>
+    <input
+      type="text"
+      id="username"
+      name="username"
+      required
+    >
+    <br><br>
+
+    <label for="password">Password:</label>
+    <input
+      type="password"
+      id="password"
+      name="password"
+      required
+    >
+    <br><br>
+
+    <input type="submit" value="Login">
+  </form>
+
+</body>
+</html>
+
+
+<!--
+وظيفة attribute name في الـ form:
+
+- name هو اسم البيانات التي تُرسل عند الضغط على Submit.
+- القيمة التي يكتبها المستخدم تُربط بـ name.
+
+مثال:
+<input name="username" value="Ali">
+
+عند الإرسال:
+- مع GET  → ?username=Ali
+- مع POST → username=Ali (في body)
+
+معلومة مهمة جدًا:
+- بدون name → البيانات لا تُرسل نهائيًا.
+- المستخدم يكتب، لكن السيرفر لا يرى أي شيء.
+
+الفرق بين name و id:
+- id  → للواجهة (label, CSS, JavaScript)
+- name → للإرسال إلى السيرفر
+
+قاعدة ذهبية:
+أي input تريد إرساله → لازم يكون عنده name
+-->

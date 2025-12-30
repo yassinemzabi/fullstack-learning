@@ -196,3 +196,15 @@ Use them mainly for grouping + CSS styling.
 ## Grouping
 - fieldset → groups related fields
 - legend → title for the fieldset
+
+
+
+
+## Form submission
+- action → URL where form data is sent
+- method="get" → sends data in the URL (visible)
+- method="post" → sends data in the request body (hidden)
+
+## name attribute
+- name → key used to send form data
+- required for backend processing

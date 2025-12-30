@@ -14,3 +14,4 @@
 - 2025-12-30: Completed semantic HTML layout project 2
 - 2025-12-30: Learned HTML links, href, target, id, mailto, tel, and javascript links
 - 2025-12-30: Learned HTML forms, inputs, labels, required/placeholder, and fieldset/legend
+- 2025-12-30: Learned form action, name attribute, and GET vs POST methods
