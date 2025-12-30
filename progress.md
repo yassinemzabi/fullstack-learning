@@ -12,3 +12,4 @@
 - 2025-12-30: Learned containers (div/span) and semantic HTML elements
 - 2025-12-30: Completed semantic HTML layout project 1
 - 2025-12-30: Completed semantic HTML layout project 2
+- 2025-12-30: Learned HTML links, href, target, id, mailto, tel, and javascript links

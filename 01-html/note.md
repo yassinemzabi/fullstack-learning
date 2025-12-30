@@ -155,3 +155,21 @@ Use them mainly for grouping + CSS styling.
 - better accessibility (screen readers)
 - better SEO
 
+
+
+
+
+## Links
+- a → creates a link
+- href → link destination (URL, email, phone, or section)
+- target="_blank" → opens link in new tab
+
+## Internal links
+- id → unique identifier for an element
+- #id → link to a section on the same page
+
+## Special links
+- mailto → opens email client
+- tel → starts phone call
+- javascript: → executes JavaScript code
+
