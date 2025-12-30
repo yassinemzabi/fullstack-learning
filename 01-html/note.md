@@ -173,3 +173,26 @@ Use them mainly for grouping + CSS styling.
 - tel → starts phone call
 - javascript: → executes JavaScript code
 
+
+## Forms
+- form → container for form fields
+- input → user input field
+- type="text" → normal text
+- type="number" → numbers
+- type="password" → hidden text
+- type="email" → email format
+- type="tel" → phone number
+
+## Labels
+- label → field name
+- for + id → links label to input (accessibility)
+
+## Input attributes
+- placeholder → hint text
+- required → must be filled
+- value → default value
+- type="submit" → submit button
+
+## Grouping
+- fieldset → groups related fields
+- legend → title for the fieldset
