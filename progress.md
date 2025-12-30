@@ -10,3 +10,5 @@
 - 2025-12-30: Learned HTML tables (table, thead/tbody/tfoot, th, caption, colspan, rowspan)
 - 2025-12-30: Learned HTML lists (ul, ol, dl) and list attributes
 - 2025-12-30: Learned containers (div/span) and semantic HTML elements
+- 2025-12-30: Completed semantic HTML layout project 1
+- 2025-12-30: Completed semantic HTML layout project 2
