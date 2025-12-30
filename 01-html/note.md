@@ -98,3 +98,16 @@
 - kind → type (subtitles / captions)
 - label → name shown in player
 - default → enabled by default
+
+
+
+## Tables
+- table → creates a table
+- thead → header section
+- tbody → body rows
+- tfoot → footer section
+- th → header cell
+- td → normal cell
+- caption → table title
+- colspan → merge columns
+- rowspan → merge rows
