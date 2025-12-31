@@ -222,3 +222,10 @@ Use them mainly for grouping + CSS styling.
 - max → maximum value
 - step → value increment
 - value → default value
+
+
+
+## Radio and Checkbox
+- radio → choose ONE option from a group (same name)
+- checkbox → choose one or more options
+- checked → makes an option selected by default

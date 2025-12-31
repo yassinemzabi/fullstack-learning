@@ -16,3 +16,4 @@
 - 2025-12-30: Learned HTML forms, inputs, labels, required/placeholder, and fieldset/legend
 - 2025-12-30: Learned form action, name attribute, and GET vs POST methods
 - 2025-12-30: Learned advanced input types (color, file, range, search, url) and attributes (min, max, step, value)
+- 2025-12-31: Learned radio, checkbox, and checked attribute
