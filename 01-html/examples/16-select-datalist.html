@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Select & Datalist</title>
+</head>
+<body>
+
+  <h1>Select, Optgroup, Multiple, and Datalist</h1>
+
+  <form>
+
+    <div>
+        <fieldset>
+        <legend>Select (single choice)</legend>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">-- Choose a country --</option>
+            <option value="tn" selected>Tunisia</option>
+            <option value="de">Germany</option>
+            <option value="fr">France</option>
+        </select>
+        </fieldset>
+    </div>
+    
+    <br>
+    
+    <div>    
+        <fieldset>
+        <legend>Select (single choice) option with disabled selected</legend>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="" disabled selected>
+                -- Choose a country --
+            </option>
+            <option value="tn" >Tunisia</option>
+            <option value="de">Germany</option>
+            <option value="fr">France</option>
+        </select>
+        </fieldset>
+    </div>
+    
+    <br>
+    
+    <div>
+        <fieldset>
+        <legend>Select with optgroup</legend>
+
+        <label for="city">City:</label>
+        <select id="city" name="city">
+            <optgroup label="Tunisia">
+            <option value="tunis">Tunis</option>
+            <option value="sousse">Sousse</option>
+            </optgroup>
+
+            <optgroup label="Germany">
+            <option value="darmstadt">Darmstadt</option>
+            <option value="berlin">Berlin</option>
+            </optgroup>
+        </select>
+        </fieldset>
+    </div>
+    
+    
+    <br>
+
+    <div>
+        <fieldset>
+        <legend>Select multiple</legend>
+
+        <label for="skills">Skills (select multiple):</label><br>
+        <select id="skills" name="skills" multiple size="1"  >
+            <option value="html" selected>HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">JavaScript</option>
+            <option value="git">Git</option>
+        </select>
+
+        <p><small>Tip: Hold Ctrl (Windows) or Command (Mac) to select multiple.</small></p>
+        </fieldset>
+    
+    </div>
+    
+    <br>
+    
+    <div>
+        <fieldset>
+        <legend>Datalist (suggestions)</legend>
+
+        <label for="brow">Choose a browser:</label>
+        <input id="brow" name="browser" list="browsers" placeholder="Type to search...">
+
+        <datalist id="browsers">
+            <option value="Chrome"></option>
+            <option value="Firefox"></option>
+            <option value="Edge"></option>
+            <option value="Safari"></option>
+        </datalist>
+        </fieldset>
+    </div>
+    <br>
+
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+</html>
+
+
+<!--
+شرح datalist و list في HTML (ببساطة):
+
+1) ما هي datalist؟
+- datalist هي قائمة اقتراحات مخفية.
+- لا تظهر وحدها في الصفحة.
+- تحتوي على option بقيم مقترحة فقط.
+
+2) ما هي وظيفة list في input؟
+- list يربط input بقائمة اقتراحات.
+- قيمته يجب أن تساوي id الخاص بـ datalist.
+
+3) كيف يتم الربط؟
+- input list="browsers"
+- datalist id="browsers"
+- نفس الاسم (browsers) = تم الربط.
+
+4) كيف تشتغل عمليًا؟
+- المستخدم يكتب داخل input.
+- المتصفح يبحث عن datalist بنفس الاسم.
+- يعرض option كاقتراحات.
+- المستخدم يمكنه اختيار اقتراح أو كتابة قيمة جديدة.
+
+5) هل datalist تفرض القيم؟
+- لا.
+- هي اقتراحات فقط.
+- يمكن إدخال أي قيمة حتى لو غير موجودة.
+
+6) ماذا يتم إرساله مع form؟
+- الذي يُرسل هو قيمة input فقط.
+- مثال: browser=Chrome أو browser=Brave
+
+7) الفرق بين select و datalist:
+- select: يفرض خيارات محددة.
+- datalist: اقتراحات مرنة.
+
+خلاصة:
+- list = رابط
+- datalist = اقتراحات
+- input = الحقل الذي يعرض الاقتراحات
+-->

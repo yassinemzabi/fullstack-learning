@@ -229,3 +229,25 @@ Use them mainly for grouping + CSS styling.
 - radio → choose ONE option from a group (same name)
 - checkbox → choose one or more options
 - checked → makes an option selected by default
+
+
+
+## Select, Option, Optgroup
+- select → dropdown list
+- option → item inside select
+- optgroup → groups options with a label
+- selected → default selected option
+- multiple → allows selecting multiple options (Ctrl/Command)
+
+## Datalist
+- datalist → provides suggestions for an input
+- input + list="id" → connects input to datalist
+
+## disabled attribute
+- disabled → disables an input or option
+- user cannot interact with it
+- disabled fields are NOT sent with the form
+
+### disabled vs readonly
+- disabled → cannot be selected or submitted
+- readonly → visible and submitted but not editable
