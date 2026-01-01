@@ -251,3 +251,14 @@ Use them mainly for grouping + CSS styling.
 ### disabled vs readonly
 - disabled → cannot be selected or submitted
 - readonly → visible and submitted but not editable
+
+
+## Buttons
+- input type="submit" → submits the form
+- input type="reset" → resets form fields to default values
+- input type="button" → clickable button (does nothing alone)
+- button tag → flexible button (can contain text/icons)
+
+Note:
+- use <button type="button"> for custom actions (with JS later)
+- default type for <button> inside a form is "submit"

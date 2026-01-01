@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Buttons</title>
+</head>
+<body>
+
+  <h1>Buttons in HTML</h1>
+
+  <form action="result.html" method="get">
+
+    <label for="name">Name:</label>
+    <input id="name" name="name" type="text" placeholder="Your name" required>
+    <br><br>
+
+    <!-- Submit -->
+    <input type="submit" value="Submit (input)">
+
+    <!-- Reset -->
+    <input type="reset" value="Reset (input)">
+
+    <!-- Button (does nothing by itself) -->
+    <input type="button" value="Button (no action)">
+
+    <br><br>
+
+    <!-- button tag -->
+    <button type="submit">Submit (button tag)</button>
+    <button type="reset">Reset (button tag)</button>
+
+    <!-- Important: type="button" prevents submitting the form -->
+    <button type="button">Normal Button (no submit)</button>
+
+
+    <br><br>
+
+    <!-- BUTTON (input) - needs JS to do something -->
+    <input type="button" value="Button (input)" onclick="alert('Hello! This button uses JavaScript.')">
+    <br><br>
+  </form>
+
+</body>
+</html>

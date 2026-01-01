@@ -18,4 +18,5 @@
 - 2025-12-30: Learned advanced input types (color, file, range, search, url) and attributes (min, max, step, value)
 - 2025-12-31: Learned radio, checkbox, and checked attribute
 - 2025-12-31: Learned select/option/optgroup, selected/disabled/multiple, and datalist
+- 2025-01-01: Learned input buttons (submit/reset/button) and the button tag
 
