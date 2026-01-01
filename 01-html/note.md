@@ -262,3 +262,17 @@ Use them mainly for grouping + CSS styling.
 Note:
 - use <button type="button"> for custom actions (with JS later)
 - default type for <button> inside a form is "submit"
+
+
+## Textarea
+- textarea → multi-line text input
+- rows / cols → visible size of textarea
+- minlength / maxlength → limits number of characters
+
+## Validation & form attributes
+- required → must be filled
+- novalidate (on form) → disables browser validation
+- autofocus → focus the field automatically on page load
+- readonly → user can’t edit, but value is submitted
+- disabled → user can’t use it, and value is NOT submitted
+- form target="_blank" → opens form result in a new tab

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Textarea & Validation</title>
+</head>
+<body>
+
+  <h1>Textarea & Validation Example</h1>
+  <h2>Validation ON</h2>
+  <!-- Normal form (validation ON) -->
+  <form action="result.html" method="get" target="_blank">
+    <fieldset>
+        <legend>Validation ON</legend>
+            <div>
+                <label for="message">Message:</label><br>
+                <textarea
+                id="message"
+                name="message"
+                rows="6"
+                cols="40"
+                placeholder="Write your message..."
+                minlength="10"
+                maxlength="100"
+                required
+                autofocus
+                ></textarea>
+            </div>
+            <br><br>
+
+            <div>
+                <label for="readonlyField">Readonly field:</label>
+                <input
+                id="readonlyField"
+                name="readonlyField"
+                type="text"
+                value="This will be submitted"
+                readonly
+                    >
+            </div>
+
+            <br><br>
+
+            <div>
+                <label for="disabledField">Disabled field:</label>
+                <input
+                id="disabledField"
+                name="disabledField"
+                type="text"
+                value="This will NOT be submitted"
+                disabled
+                >
+            </div>    
+            <br><br>
+
+            <input type="submit" value="Submit">
+    </fieldset>
+  </form>
+
+  <hr>
+
+  <!-- novalidate form (validation OFF) -->
+  <h2>Validation OFF (novalidate)</h2>
+  <form action="result.html" method="get" target="_self" novalidate>
+    <fieldset>
+        <legend>Validation OFF (novalidate)</legend>
+            <div>
+                <label for="message2">Message (no validation):</label><br>
+                <textarea
+                id="message2"
+                name="message2"
+                rows="6"
+                cols="40"
+                placeholder="Write your message..."
+                minlength="10"
+                maxlength="100"
+                required
+                >This text is the default value</textarea>
+                </div>
+
+                <br><br>
+
+                <input type="submit" value="Submit without validation">
+    </fieldset>
+</form>
+
+</body>
+</html>
+
+
+
+<!--
+Difference between disabled and readonly:
+
+disabled:
+- User cannot interact with the field
+- Field is NOT sent with the form
+- Usually appears greyed out
+- Use when the field must be completely inactive
+
+readonly:
+- User cannot edit the field
+- Field IS sent with the form
+- Field looks normal and can be focused
+- Use when you want to display a value but prevent editing
+
+Golden rule:
+- Show + send value → readonly
+- Block completely → disabled
+-->
