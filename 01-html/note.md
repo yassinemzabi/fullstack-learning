@@ -276,3 +276,25 @@ Note:
 - readonly → user can’t edit, but value is submitted
 - disabled → user can’t use it, and value is NOT submitted
 - form target="_blank" → opens form result in a new tab
+
+
+## iframe
+- iframe → embeds another page inside the current page
+- src → URL of the embedded page
+- title → required for accessibility
+- width / height → size of iframe
+- frameborder → controls iframe border (deprecated)
+- scrolling → controls scrollbars (deprecated)
+
+Note:
+- frameborder and scrolling are deprecated (use CSS instead)
+
+## object
+- object → embeds external resources (PDF, images, HTML)
+- data → resource URL
+- type → MIME type (e.g. application/pdf)
+
+## embed
+- embed → embeds media (PDF, video, audio)
+- src → resource URL
+- width / height → size

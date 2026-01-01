@@ -20,4 +20,5 @@
 - 2025-12-31: Learned select/option/optgroup, selected/disabled/multiple, and datalist
 - 2026-01-01: Learned input buttons (submit/reset/button) and the button tag
 - 2026-01-01: Learned textarea, rows/cols, minlength/maxlength, validation, novalidate, autofocus, readonly/disabled, and form target
+- 2026-01-01: Learned iframe, object, embed, and embedding external content
 
